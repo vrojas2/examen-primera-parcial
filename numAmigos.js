@@ -10,9 +10,9 @@ function dividir(x) {
     return sumaNum;
 }
 
-for (let i = 2; i <= 300; i++) {
+for (let i = 2; i <= 3000; i++) {
     ri = dividir(i);
-    for (let j = i; j <= 300; j++) {
+    for (let j = i; j <= 3000; j++) {
         rj = dividir(j);
         if (ri == j && rj == i) {
             console.log(i, "y", j, "son amigos");
